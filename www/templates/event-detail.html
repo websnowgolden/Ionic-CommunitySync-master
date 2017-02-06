@@ -1,0 +1,69 @@
+<ion-view hide-nav-bar="true" scroll="false" can-swipe-back="false">
+	<ion-header-bar class="bar bar-energized">
+    <button class="button event-detail-back-btn" ng-click="eventDetail.goBack()">
+      <!-- <i class="ion-arrow-left-c">back</i> -->
+      back
+    </button>
+    <div class="title" style="color: white">
+      Event Detail
+    </div>  
+  </ion-header-bar>
+
+  <ion-content scroll="true" class="detail-content">
+    <div class="event-detail-background"></div>
+    <div class="event-title">
+      <div class="row row-1">
+        <div style="text-align: left;" class="title col col-80">
+          <h4>Pumkin Festival of Lights</h4>
+        </div>
+        <div style="text-align: right;" class="col col-20"><i style="font-size: 25px" class="iicon ion-more"></i></div>
+      </div>
+      <div class="row row-2">
+        <div class="col col-70" style="text-align: left">
+          <span class="event-place">
+            <i class="ion-icon ion-android-person"> City of Strongville, Ohio</i>
+          </span>
+        </div>
+        <div class="col col-30" style="text-align: right">
+          <i style="font-size: 22px;" class="icon ion-ios-eye-outline"> </i>
+          <label style="vertical-align: top;">2,123</label>
+        </div>
+      </div>
+    </div>
+    <div class="event-description">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div class="event-contact">
+      <div class="contact row" style="text-align: center;">
+        <div class="col col-40">
+          <button class="event-contact-btn" ng-click="openPopover()"><i class="icon ion-android-call"></i> CALL</button>
+        </div>
+        <div class="col col-20"></div>
+        <div class="col col-40">
+          <button class="event-contact-btn"><i class="icon ion-ios-email-outline"></i>  EMAIL</button>
+        </div>
+      </div>
+      <div class="contact row">
+        <div class="col col-10">
+          <i class="icon ion-ios-time-outline" style="font-size: 27px;"></i>
+        </div>
+        <div class="col col-90">
+          <span style="vertical-align: middle;"> Sep 28th 10:00am - 4:30pm</span>
+        </div>
+      </div>
+      <div class="contact row">
+        <div class="col col-10">
+          <i class="icon ion-ios-location-outline" style="font-size: 40px"></i>
+        </div>
+        <div class="col col-90">
+          <div class="event-address-1">
+            1560 Broadway Rd.
+          </div>
+          <div class="event-address-2">
+            Strongsville, Ohio 44060
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

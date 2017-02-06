@@ -1,0 +1,447 @@
+/* Empty. Add your own CSS if you like */
+.homepage,
+.side-menu-content {
+	background-color: #252932;
+	border: 2px solid #9D9EA1;
+}
+
+.hometown-section {
+    padding-bottom: 25px;
+}
+
+.add-hometown-outer {
+	height: 150px; 
+	max-width: 150px; 
+	margin: 50px auto; 
+	background-color: #3B404B; 
+	border-radius: 50%;
+}
+
+.add-hometown-inner {
+	height: 130px; 
+	max-width: 130px; 
+	margin: 50px auto; 
+	background-color: 
+	white; top: 10px; 
+	position: relative; 
+	border-radius: 50%; 
+	text-align: center;
+}
+
+.home-bottom-logo.icon {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 50%;
+    background-color: #fec634;
+    color: black;
+    font-size: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.top-section {
+	position: relative; 
+	top: 20px;
+}
+
+.down-section {
+	position: relative; 
+	top: 10px;
+}
+
+.add-hometown-inner span {
+	top: 5px; 
+	position: relative;
+}
+
+.add-hometown-inner i {
+	font-size: 23px;
+}
+
+.hometown-name {
+	color: white; 
+	font-size: 20px;
+	margin-top: -55px;
+    position: relative;
+	text-align: center;
+}
+
+.hometown-badge {
+	height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    text-align: right;
+}
+
+.hometown-badge span.badge {
+	color: white;
+	background-color: #7a7e85;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 100;
+    width: 35px;
+}
+
+a.item.sidebar-item {
+	background-color: #252932;
+	color: #787D85;
+	line-height: 37px;
+	border: 1px solid #363A43;
+}
+
+a.item.sidebar-item:focus,
+a.item.sidebar-item.active{
+	background-color: #1C2127;
+	color: white;
+	line-height: 37px;
+}
+
+a.item.sidebar-item:focus i,
+a.item.sidebar-item.active i {
+	color: #F26D6D;
+}
+
+a.item.sidebar-item:focus span.badge,
+a.item.sidebar-item.active span.badge {
+	background-color: #17535E;
+}
+
+
+.sidebar-list span.badge {
+	color: white;
+	background-color: #7a7e85;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 100;
+	margin-top: 5px;
+	/*padding-left: 12px;*/
+    width: 35px;
+    text-align: center;
+}
+
+.homepage-footer {
+	color: white;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 20px;
+    text-align: center;
+}
+
+/*.explore-first-section {
+	background-image: url("../img/explore-first-section-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    position: absolute;
+    top: 44px;
+    width: 100%;
+}*/
+
+.explore-tab {
+	height: 33px;
+    line-height: 18px;
+    position: fixed;
+    top: 244px;
+}
+
+ion-content.explore-content-list {
+	top: 277px;
+	position: fixed;
+}
+
+.event-item.item,
+.announce-item.item {
+	padding-bottom: 0;
+    padding-top: 5px;
+}
+
+.item-divider.explore-content-list-divider {
+	min-height: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: #D8EAFC;
+	font-size: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.date-col {
+	text-align: center;
+}
+
+.desc-col {
+	white-space: normal;
+	padding-left: 15px;
+	color: #666666;
+	margin-top: 3px;
+	font-weight: bold;
+}
+
+.event-contact-icon,
+.annouce-contact-icon {
+	font-size: 12px;
+}
+
+p.day {
+	font-size: 15px;
+	color: #CCCCCC;
+}
+
+p.date {
+	font-size: 20px;
+	color: #CCCCCC;
+}
+
+.event-info,
+.announce-info {
+	font-size: 11px;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+.announce-desc {
+	white-space: normal;
+	padding-right: 35px;
+	color: #666666;
+	margin-top: 3px;
+	font-weight: bold;
+}
+
+a.main-tab-item.tab-item {
+	background-color: #252932;
+	opacity: 1.0;
+}/* Empty. Add your own CSS if you like */
+
+.platform-ios .tab-item {
+	color: gray;
+}
+
+.platform-ios .tab-item.tab-item-active, 
+.platform-ios .tab-item.active, 
+.platform-ios .tab-item.activated {
+	color: white;
+}
+
+.platform-android  .tabs-striped.tabs-dark .tab-item.tab-item-active, 
+.platform-android  .tabs-striped.tabs-dark .tab-item.active, 
+.platform-android  .tabs-striped.tabs-dark .tab-item.activated {
+	border-color: transparent;
+}
+
+.bar-custom {
+	background-color: #252932;
+}
+
+.bar-custom button,
+.bar-custom h1 {
+	color: white;
+}
+
+.event-top-bar {
+	/*margin-top: 43px;*/
+	text-align: center;
+}
+
+.event-top-bar a {
+	color: white;
+	text-decoration: none;
+}
+
+.event-map {
+	margin-bottom: 0px;
+	height: 600px;
+	width: 100% !important;
+}
+
+/*this is the style for explore page*/
+div.event-backgroud-card {
+	background-image: url("../img/event.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    position: absolute;
+    top: 44px;
+    width: 100%;
+}
+
+ion-content.explore-content {
+	position: absolute;
+    margin-top: 244px;
+}
+
+div.event-detail-background {
+	background-image: url("../img/event.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    /*position: absolute;*/
+    /*top: 44px;*/
+    width: 100%;
+}
+
+div.event-title {
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #FF3366;
+	color: white;
+}
+
+div.event-title h4 {
+	color: white;
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+span.event-place {
+	color: yellow;
+	font-size: 11px;
+}
+
+div.event-title div.row-1 {
+	padding: 0px;
+}
+
+div.event-title div.row-2 {
+	margin-top: -20px;
+	padding: 0px;
+}
+
+div.event-description {
+	padding: 20px;
+}
+
+div.event-contact {
+	background-color: #E7E7E7;
+	padding: 20px;
+}
+
+button.event-contact-btn {
+	font-size: 17px;
+	width: 100%;
+	height: 40px;
+}
+
+button.event-contact-btn i {
+	font-size: 20px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+div.contact {
+	margin-top: 5px;
+}
+
+div.popover-backdrop.active {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+ion-popover-view.event-map-detail.popover {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0);
+	/*top: 51%;*/
+	margin-left: 0px;
+	left: 0px;
+	width: 100%;
+	border-radius: 0px;
+	bottom: 50px;
+	position: absolute;
+	height: 70%;
+	margin-top: none;
+	top: none;
+}
+
+div.event-map-detail-view {
+	background-color: white;
+    border: 0 none;
+    height: 250px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    top: none;
+}
+
+div.event-detail-pin-content.item img.event-detail-img {
+	border-radius: 0px;
+	height: 100%;
+    left: 10px;
+    max-height: 50px;
+    max-width: 55px;
+    position: absolute;
+    top: 13px;
+    width: 100%;
+}
+
+div.event-map-detail-pin {
+	/*background-color: white;*/
+    /*height: 70px;*/
+    margin-left: 20px;
+    width: 310px;
+} 
+
+div.event-detail-pin-content p.event-time {
+	font-size: 9px;
+    line-height: 10px;
+}
+
+div.event-detail-pin-content p {
+ 	font-size: 13px;
+    line-height: 17px;
+}
+
+h2.event-title {
+	font-size: 16px;
+    font-weight: normal;
+    margin: -5px 0 6px;
+}
+
+span.close-detail-btn {
+	position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+div.event-map-detail-view .row {
+	font-size: 18px;
+    height: 65px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+div.row.timeline {
+	padding-top: 10px;
+}
+
+div.row.timeline div#clock{
+	padding: 0px;
+	padding-top: 5px;
+}
+
+div.event-map-detail-view i {
+	font-size: 30px;
+}
+
+span.event-map-desc-item {
+	vertical-align: super;
+	margin-left: 25px;
+}
+
+div.event-map-detail-view a {
+	color: #ff7c9d;
+    padding-left: 8px;
+    text-decoration: none
+}
+
+div.space {
+	height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+<ion-view>
+  <ion-content scroll="true" class="homepage">
+    <div class="hometown-section">
+      <div class="add-hometown-outer">
+        <div class="add-hometown-inner">
+          <h3 class="top-section" style="">Add</h3>
+          <h3 class="down-section" style="">Hometown</h3>
+          <span><i class="icon ion-plus-round"></i></span>
+        </div>
+      </div>
+
+      <div class="hometown-name">
+        <div class="hometown-badge"><span class="badge">3</span></div>
+        City of Strongsville<br><small style="color: red; font-size: 13px">Strongsville, Oh</small>
+      </div>
+    </div>
+
+    <div class="sidebar-list list">
+      <a menu-close class="item item-icon-left sidebar-item" ng-click="activeItem='explore'" ng-class="{'active': activeItem==='explore'}" href="#/app/explore">
+        <i class="icon ion-email"></i>
+        Explore
+        <span class="badge">3</span>
+      </a>
+      <a menu-close class="item item-icon-left item-icon-right sidebar-item" ng-click="activeItem='follow'" ng-class="{'active': activeItem==='follow'}" href="#/app/follow">
+        <i class="icon ion-person-stalker"></i>
+        Following
+        <span class="badge">4</span>
+      </a>
+      <a menu-close class="item item-icon-left sidebar-item" ng-click="activeItem='notifications'" ng-class="{'active': activeItem==='notifications'}" href="#/app/notifications">
+        <i class="icon ion-paper-airplane"></i>
+        Notifications
+        <span class="badge">15</span>
+      </a>
+      <a menu-close class="item item-icon-left sidebar-item" ng-click="activeItem='account'" ng-class="{'active': activeItem==='account'}" href="#/app/account">
+        <i class="icon ion-gear-b"></i>
+        Account Settings
+      </a>
+      <a menu-close class="item item-icon-left sidebar-item" ng-click="activeItem='privacy'" ng-class="{'active': activeItem==='privacy'}" href="#/app/privacy">
+        <i class="icon ion-gear-b"></i>
+        Privacy
+      </a>
+    </div>
+
+    <div class="homepage-footer">
+      <span><i class="home-bottom-logo icon ion-podium"></i>Community <strong>Sync</strong></span>
+    </div>
+  </ion-content>
+</ion-view>
